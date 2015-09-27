@@ -1,7 +1,7 @@
 # extends  image-multimedia-full by OpenCV
 # OpenCV is a huge package. Use only when needed
 
-require image-multimedia-full.bb
+require strim-image-base.bb
 
 IMAGE_INSTALL_append += " opencv opencv-dev"
 
